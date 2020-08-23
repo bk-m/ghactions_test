@@ -14,6 +14,9 @@ jobs:
           - os: ubuntu-latest
             artifact_name: ghactions_test
             asset_name: ghactions_test-linux-amd64
+          - os: windows-latest
+            artifact_name: ghactions_test.exe
+            asset_name: ghactions_test-win-amd64.exe
           - os: macos-latest
             artifact_name: ghactions_test
             asset_name: ghactions_test-macos-amd64
